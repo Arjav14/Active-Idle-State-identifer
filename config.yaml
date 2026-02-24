@@ -1,0 +1,22 @@
+camera:
+  source: 0
+  width: 640
+  height: 480
+
+roi:
+  x1: 0
+  y1: 0
+  x2: 640
+  y2: 480
+
+thresholds:
+  idle_minutes: 3
+  break_minutes: 5
+  absence_seconds: 10
+
+logging:
+  csv_path: logs/operator_log.csv
+  db_path: logs/operator_log.db
+
+alerts:
+  email_enabled: false
